@@ -1,0 +1,46 @@
+/* vietnamese */
+@font-face {
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alfaslabone/v17/6NUQ8FmMKwSEKjnm5-4v-4Jh2d1he-Wv.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+
+
+
+
+
+
+  /*----------------------------------------------Footer------------------------------------------*/
+
+  footer {
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to right, #AEE5E5, #F3C7E6);
+    color: black;
+    padding: 100px 4 30px;
+    border-top-left-radius: 130px;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  .row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .all {
+    flex-basis: 25%;
+    padding: 10px;
+  }
+
+  .all:nth-child(2),
+  .all:nth-child(3) {
+    flex-basis: 15%;
+  }
